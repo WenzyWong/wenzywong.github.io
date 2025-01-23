@@ -16,8 +16,7 @@ timezone: Asia/Shanghai
 
 title: Wenzy WONG # the main title
 
-tagline: Ph.D. student
-Fudan University. # it will display as the subtitle
+tagline: Ph.D. student\nFudan University # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   " "
