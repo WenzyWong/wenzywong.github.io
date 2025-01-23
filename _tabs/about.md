@@ -4,15 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<div>
-    <div style="float: left;margin-right: 10px;">
-        <img src="/assets/img/about/about.jpg" width="150px" height="200px" style="box-shadow: 5px 5px 5px rgba(0,0,0,.5);margin: 10px;">
-    </div>
-    <div style="float: right;display: flex;flex-wrap: wrap;width: 75%;justify-content: space-between;">
-    </div>
-    <div style="margin-bottom: 200px;"></div>
-</div>
-
 ## 📖 Education
 
 ### 🎓 Degree
