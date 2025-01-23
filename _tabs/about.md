@@ -17,7 +17,7 @@ order: 4
 - B.Sc. of Biology, 2016-2021, College of Informatics, Huazhong Agricultural University, Wuhan, China
 
   - Major: Bioinformatics
-  - Graduation project: Benchmarking imputation algorithms in analysing scRNA-seq data
+  - Graduation project: Benchmarking imputation algorithms in scRNA-seq analysis
   - Advisor: Dr. Qianqian Shi
  
 ## 🏛️ Visiting and exchanging
