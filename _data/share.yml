@@ -15,7 +15,7 @@ platforms:
 #    link: "https://t.me/share/url?url=URL&text=TITLE"
 
   - type: orcid
-    icon: "fa-brands fa-orcid"
+    icon: "/assets/img/icon/orcid-brands-solid.svg"
     link: "https://orcid.org/0009-0000-8726-3409"
 
   # Uncomment below if you need to.
