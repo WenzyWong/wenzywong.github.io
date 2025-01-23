@@ -4,7 +4,7 @@
   icon: "fab fa-github"
 
 - type: orcid
-  icon: "fa-brands fa-orcid"
+  icon: "/assets/img/icon/orcid-brands-solid.svg"
 
 - type: email
   icon: "fas fa-envelope"
