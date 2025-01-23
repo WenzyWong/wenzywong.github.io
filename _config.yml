@@ -28,12 +28,14 @@ url: "https://wenzywong.github.io"
 github:
   username: WenzyWong # change to your GitHub username
 
+orcid:
+  url: https://orcid.org/0009-0000-8726-3409
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Yunzhe Wang
   email: yunzhewang24@m.fudan.edu.cn # change to your email address
-  ORCID: https://orcid.org/0009-0000-8726-3409
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/WenzyWong # change to your GitHub homepage
