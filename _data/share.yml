@@ -14,7 +14,7 @@ platforms:
 #    icon: "fab fa-telegram"
 #    link: "https://t.me/share/url?url=URL&text=TITLE"
 
-  - type: orcid
+  - type: ORCID
     icon: "/assets/img/icon/orcid-brands-solid.svg"
     link: "https://orcid.org/0009-0000-8726-3409"
 
