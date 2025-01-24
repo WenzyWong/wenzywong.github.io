@@ -5,12 +5,11 @@ refactor: true
 
 {% include lang.html %}
 
-{% include about.md %}
-
-{% assign all_pinned = site.posts | where: 'pin', 'true' %}
-{% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
-
-{% assign posts = '' | split: '' %}
+<!-- Read and process the about.md file -->
+{% capture about_content %}
+  {% include about.md %}
+{% endcapture %}
+{{ about_content | markdownify }}
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
