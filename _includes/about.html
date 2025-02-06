@@ -7,15 +7,11 @@
         /* Style for the container that holds both cards */
         .about-me {
             position: relative;  /* This makes it a positioning context for absolute elements */
-            width: 100%;        /* Take full width of parent */
-            padding: 20px;      /* Add some padding for spacing */
         }
         
         /* Base card styles */
         .card {
             background-color: rgba(255, 255, 255, 0.3);
-            padding: 20px;
-            border-radius: 8px; 
         }
         
         /* Bottom card (original) */
@@ -26,10 +22,7 @@
         
         /* Top card (overlay) */
         .card-overlay {
-            position: absolute;
-            top: 50%;          /* Position from the top */
-            left: 50%;         /* Position from the left */
-            transform: translate(-45%, -45%);  /* Offset to create a slight shift */
+            position: relative;
             width: 90%;        /* 90% of the original width */
             height: 90%;       /* 90% of the original height */
             z-index: 2;        /* Places this above the bottom card */
