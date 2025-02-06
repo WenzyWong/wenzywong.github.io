@@ -3,19 +3,10 @@
         .content {
             text-align: justify;
         }
-        .theme-dark .about-me {
-          color: #fff;
-          background-color: #333;
-        }
-      
-        .theme-light .about-me {
-          color: #333;
-          background-color: #fff;
-        }
     </style>
 </head>
 
-<div class="about-me {% if site.theme_mode == 'dark' %}theme-dark{% else %}theme-light{% endif %}">
+<div class="about-me">
   <article class="card-wrapper card">
       {% assign card_body_col = '12' %}
         <div class="col-md-{{ card_body_col }}">
