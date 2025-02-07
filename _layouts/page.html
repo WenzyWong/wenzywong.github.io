@@ -6,7 +6,7 @@ layout: default
 
 <article class="px-1">
   {% if page.layout == 'page' or page.collection == 'tabs' %}
-    {% assign title = page.title | upcase %}
+    {% assign title = page.title %}
     <h1 class="dynamic-title">
       {{ title }}
     </h1>
