@@ -1,6 +1,6 @@
 ---
 title: Writing NSFC grant proposal for the first time
-author: Wenzy WONG
+author: wenzy
 date: 2025-02-19 20:27:00 +0800
 categories: [Blogging]
 tags: [Woolgathering]
