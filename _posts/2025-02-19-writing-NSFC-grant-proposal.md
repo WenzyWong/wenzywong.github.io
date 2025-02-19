@@ -20,4 +20,4 @@ During the final revision, I've changed many contents from following pipelines t
 
 It's so hard to behave like a so-called "grown-up" and to fit myself into the position required by society and the academic circle. I can't live in a world where only what's real is left, because such a world doesn't exist. I'm also not quite sure about my potential for building my own project with enough creativity and truthfulness. At this point, I think of the lyrics that my favorite band, Black Box Recorder, once sang: "Life is unfair, kill yourself or get used to it." 
 
-Actually, what is fair?
+Actually, what is fair? Why does "fairness" only seem to favor those who are utilitarian, those who flatter their superiors, and those who are willing to boast about themselves?
