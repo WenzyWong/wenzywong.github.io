@@ -3,7 +3,7 @@ title: Writing NSFC grant proposal for the first time
 author: wenzy
 date: 2025-02-19 20:27:00 +0800
 categories: [Blogging]
-tags: [Woolgathering]
+tags: [woolgathering]
 render_with_liquid: false
 pin: true
 ---
