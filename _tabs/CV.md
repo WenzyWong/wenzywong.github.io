@@ -13,19 +13,20 @@ order: 4
 
   - Research interests: Cancer Research; Bioinformatics; Human Microbiome
   - Major: Metabolism and Diseases, Biochemistry and Molecular Biology
-  - Advisor: Dr. Zhao Zhang
+  - Academic advisor: Dr. Zhao Zhang
 
 - B.Sc. of Biology, 2016-2021, College of Informatics, Huazhong Agricultural University, Wuhan, China
 
   - Major: Bioinformatics
   - Graduation project: Benchmarking imputation algorithms in scRNA-seq analysis
-  - Advisor: Dr. Qianqian Shi
+  - Academic advisor: Dr. Qianqian Shi
  
 ### 🏛️ Visiting and exchanging
 
 - Visiting Student, 2019, School of Life Science, The Chinese University of Hong Kong, Hong Kong, China
 
   - Programme: Biological and Biomedical Science Programme
+  - Research topic: The mechanism and clinical applications of siRNAs
 
 ## 📑 Publication
 
