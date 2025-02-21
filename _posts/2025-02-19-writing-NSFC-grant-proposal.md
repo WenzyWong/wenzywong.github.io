@@ -9,6 +9,8 @@ mermaid: true
 pin: false
 ---
 
+## 2025-02-19 | Extracting what makes me uncomfortable
+
 From the beginning of this semester, I have been writing and revising multiple sections for my advisor's NSFC grant proposal, most of which were based on my published work and current projects. It was easy at first, perhaps because I was so familiar with what I had done and what I would explore later on. Elaborating these things was like extracting knowledge and experiences from my memory. 
 
 However, when I was required to write the background of some research fields that I hadn't put much effort into, I began to feel somewhat stressed. I was fully aware that learning the current status of these fields would benefit my own research greatly, but under the circumstances of "showing off the importance of the project you want to apply for," I felt uncomfortable almost as soon as I started writing these parts of the background. The feeling brought a sense of "fickleness" into my life, making me unable to focus on the things I'm truly interested in, like the course I have been learning for weeks, the new language I have been practicing for months, and the book I have started to read. I would say that I was totally trapped in the whole grant thing and began to lose my sense of control over my own life.
@@ -24,3 +26,11 @@ It's so hard to behave like a so-called "grown-up" and to fit myself into the po
 {% include embed/spotify.html id='7Bj4wIqRzM6vx278EFYoBh' %}
 
 Actually, what is fair? Why does "fairness" only seem to favor those who are utilitarian, those who flatter their superiors, and those who are willing to boast about themselves?
+
+## Updated: 2025-02-21 | Finished writing, in a gestrue of refual to praise
+
+After overhauling the whole document and uploading it this morning, I could feel something floating away from my body. It was like I had made a deep and thorough sigh that expelled all the air in my lungs. Also, maybe because last night's sleep wasn't very good, I slumped into a brain fog as soon as I closed all the relevant files. I can say I did my best to make the grant proposal more "meaningful" and "real" in my own dictionary. But I can't decide the final look of it, as I'm not the one who will submit it to the NSFC.
+
+About two hours later, when I put some bread and fruit I had just bought into the refrigerator in my advisor's office, he stopped me and praised my revised content. "You've done quite a good job with the section 'Research Content'." He said it twice. That wasn't the first time he spoke highly of my writing, but I guess I still felt awkward when others praised me like that. Last time when he said so, I merely nodded my head and barely squeezed out a word, "OK." And this time, I avoided responding to his approval and quickly switched the topic to another section where I had done a complete makeover. "I haven't read that part yet," he answered. And I felt relieved upon hearing that, because no matter whether it's good or not, I wouldn't have to respond to any praise anymore.
+
+If the thing he praised me for was something that I truly enjoyed doing, would I still feel awkward like that?
