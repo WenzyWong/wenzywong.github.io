@@ -1,5 +1,5 @@
 ---
-title: Reconsidering the two blogs posted before — navigating the tension
+title: Reconsidering the two blogs posted before - navigating the tension
 author: wenzy
 date: 2025-02-23 16:18:05 +0800
 categories: [Blogging]
