@@ -9,6 +9,8 @@ mermaid: true
 pin: false
 ---
 
+{% include embed/spotify.html id='6RInKT5dS6xsdD4s5SGyzH' %}
+
 Yesterday morning, my advisor sent me a slide with a "post-doc opportunity" while he was at the mini-symposium downstairs, and he asked whether I had any intention to go there after my graduation. This academic center, located in Finland, is calling for data-mining scientists, which suits my major well. But to be frank, I found myself a bit bored browsing the project information related to cancer multi-omics, pan-cancer analysis, and so on. These topics are close to what I've been doing for years. In contrast, a project named "The Spirit of the Forest: Atmospheric Data and Human Health" caught my eye instantly, although it requires knowledge and skills I haven't yet acquired.
 
 On the same day, I watched a video sent by *Nature Briefings* about several scientists collecting the sounds of crows and trying to understand their language. I forwarded the video to my friend with comments as follows: "These researchers seem to love crows very much, as their eyes were also smiling genuinely when they talked about their research."
@@ -24,4 +26,3 @@ I was at an agricultural university years before, but I was not interested in de
 The transition of my research interests seemed natural and reasonable, but it also reflects some unstable and elusive aspects of my personality. Just like my attitude towards life, I always let myself live in each moment, following my intuition and current thoughts. When I'm dealing with tasks, such an attitude helps me focus on every step and immerse myself in the thing I'm doing. But now, looking back at my twenties, I found that I've been changing like entirely fresh flowing water making its own riverbed underneath.
 
 Easily sticking to something used to be my advantage. But now, it's like the more I know about something, the easier it is for me to get bored through the inevitable repeated work. As I'm still curious about many things I haven't had enough time to learn, these things have become more and more attractive to me. How can one tell what is true interest, and what is temporary attraction based on the unknown? (Understanding the love towards a career is so similar to discerning the love towards a person...)
-
