@@ -13,7 +13,9 @@ Yesterday morning, my advisor sent me a slide with a "post-doc opportunity" whil
 
 On the same day, I watched a video sent by *Nature Briefings* about several scientists collecting the sounds of crows and trying to understand their language. I forwarded the video to my friend with comments as follows: "These researchers seem to love crows very much, as their eyes were also smiling genuinely when they talked about their research."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG9GdpV4adU?si=QLdxVLL7xF0jcaGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{% include embed/youtube.html id='KG9GdpV4adU' %}
+
 
 Similarly, I was moved by a photo capturing a field scientist who uses radio tracking to monitor wildcats with her daughter in southern Spain, and forwarded it to the same friend.
 
