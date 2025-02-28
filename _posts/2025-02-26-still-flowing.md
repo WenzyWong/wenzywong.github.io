@@ -6,7 +6,7 @@ categories: [Blogging]
 tags: [woolgathering]
 math: true
 mermaid: true
-pin: false
+pin: true
 ---
 
 Yesterday morning, my advisor sent me a slide with a "post-doc opportunity" while he was at the mini-symposium downstairs, and he asked whether I had any intention to go there after my graduation. This academic center, located in Finland, is calling for data-mining scientists, which suits my major well. But to be frank, I found myself a bit bored browsing the project information related to cancer multi-omics, pan-cancer analysis, and so on. These topics are close to what I've been doing for years. In contrast, a project named "The Spirit of the Forest: Atmospheric Data and Human Health" caught my eye instantly, although it requires knowledge and skills I haven't yet acquired.
