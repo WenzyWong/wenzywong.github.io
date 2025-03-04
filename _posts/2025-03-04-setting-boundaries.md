@@ -11,7 +11,7 @@ pin: false
 
 {% include embed/spotify.html id='3JxzLbKXkPDmGOXeES7H4K' %}
 
-I shared my struggles with writing the NSFC grant proposal with my psychologist, along with what I had [written previously](https://wenzywong.github.io/posts/writing-NSFC-grant-proposal/):
+I shared my struggles with writing the NSFC grant proposal to my psychologist, along with what I had [written previously](https://wenzywong.github.io/posts/writing-NSFC-grant-proposal/):
 
 > During the revision of the final version, I've changed many contents from following pipelines to combining more suitable methods for explaining more concrete phenotypes. But that was a hasty "sewing" rather than a series of well-thought-out and in-depth thoughts. I understand that there is still much time left for me to reconsider these things, but I have to write these "semi-manufactured" ideas as if they have already been considered thoroughly. The unreality makes me want to vomit.
 
