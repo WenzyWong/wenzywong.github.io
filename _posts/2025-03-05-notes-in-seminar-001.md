@@ -34,7 +34,7 @@ pin: false
     
   </aside>
 
-- Structural analysis of TEAD, a TF regulator of YAP, revealed an [autocatalytic palmitoylation](http://www.genesdev.org/cgi/doi/10.1101/gad.1865810) within it, which might be easier to target (transcriptional module).
+- Structural analysis of TEAD, a TF regulator of YAP, revealed an [autocatalytic palmitoylation](https://genesdev.cshlp.org/content/24/3/235.full.pdf) within it, which might be easier to target (transcriptional module).
 
   <aside>
   💡
