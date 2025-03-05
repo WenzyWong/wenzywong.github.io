@@ -2,8 +2,8 @@
 title: Notes in seminar—"Role of the Hippo signalling pathway in organ size regulation and carcinogenesis"
 author: wenzy
 date: 2025-03-05 21:23:31 +0800
-categories: [Notes]
-tags: [seminar]
+categories: [Blogging]
+tags: [seminar] [notes]
 math: true
 mermaid: true
 pin: false
