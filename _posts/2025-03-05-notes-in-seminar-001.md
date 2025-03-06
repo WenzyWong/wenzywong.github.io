@@ -27,48 +27,26 @@ pin: false
 
 - To target a pathway, we could focus on either the kinase module or the transcriptional module. Targeting kinase module is usually easier.
 
-  <table>
-    <tr>
-      <th>💡Thoughts</th>
-    </tr>
-    <tr>
-      <td>Such a "common sense" reminded me of a time during one of my co-op projects when my colleagues were adamant about targeting a TF initially and abandoned targeting a significant signalling pathway because they were not very familiar with it. From the perspective of data analysis, this TF showed consistent and significant results across all three datasets—RNA-seq, ATAC-seq, and HiChIP. However, when my advisor glanced at the protein name, he immediately advised against targeting it. Despite nearly an hour of debate, my advisor couldn’t convince them as they were in a rush and have already purchased the materials for later experiments. Months later, after knocking out the TF, they found that their system experienced too many alterations. The phenotype they had initially expected was completely overshadowed by the global changes. As a result, they had to acknowledge the waste of two months' time and reconsider their target genes (or proteins). It's difficult to comment on the situation.</td>
-    </tr>
-      <td><b>And now, I can say that I have a much firmer grasp of this "common sense". Also, considering thoroughly before acting is actually faster than doing things in a rush.</b><td>
-  </table>
-
+  | <div style="width=100%">💡Thoughts </div>|
+  | :---        |
+  | Such a "common sense" reminded me of a time during one of my co-op projects when my colleagues were adamant about targeting a TF initially and abandoned targeting a significant signalling pathway because they were not very familiar with it. From the perspective of data analysis, this TF showed consistent and significant results across all three datasets—RNA-seq, ATAC-seq, and HiChIP. However, when my advisor glanced at the protein name, he immediately advised against targeting it. Despite nearly an hour of debate, my advisor couldn’t convince them as they were in a rush and have already purchased the materials for later experiments. Months later, after knocking out the TF, they found that their system experienced too many alterations. The phenotype they had initially expected was completely overshadowed by the global changes. As a result, they had to acknowledge the waste of two months' time and reconsider their target genes (or proteins). It's difficult to comment on the situation.|
+  |**And now, I can say that I have a much firmer grasp of this "common sense". Also, considering thoroughly before acting is actually faster than doing things in a rush.**|
+  
 - Structural analysis of TEAD, a TF regulator of YAP, revealed an [autocatalytic palmitoylation](https://genesdev.cshlp.org/content/24/3/235.full.pdf) within it, which might be easier to target (transcriptional module).
 
-  <table>
-    <tr>
-      <th>💡Thoughts</th>
-    </tr>
-    <tr>
-      <td>So choosing the transcriptional module instead of the kinase module might need some ground reasons?</td>
-    </tr>
-  </table>
+  | <div style="width=100%">💡Thoughts </div>|
+  | :---        |
+  | So choosing the transcriptional module instead of the kinase module might need some ground reasons?|
 
 - Unlike the pro-tumour functions in most cancer types, YAP could inhibit tumour metastasis in small cell lung cancer (SCLC) through inhibiting amoeboid migration. There was a depletion of YAP expression in SCLC, compared with other subtypes of lung cancer.
   
-  <table>
-    <tr>
-      <th>💡Thoughts</th>
-    </tr>
-    <tr>
-      <td>The finding was intriguing and made me question the significance of pan-cancer analysis once again. (Sorry, my advisor.)</td>
-    </tr>
-  </table>
+  | <div style="width=100%">💡Thoughts </div>|
+  | :---        |
+  | The finding was intriguing and made me question the significance of pan-cancer analysis once again. (Sorry, my advisor.)|
 
 - They developed a drug targeting RB1-YAP regulatory process, which significantly reduced the metastasis in SCLC mice model.
-- 
-  <table>
-    <tr>
-      <th>💡Thoughts</th>
-    </tr>
-    <tr>
-      <td>The drug targets the primary tumor to prevent it from becoming metastatic cancer. So I asked Guan whether they had also tested the expression of YAP in metastatic tissues and whether the YAP expression levels were consistent. He replied that they had not, explaining that most patients with SCLC are diagnosed at an advanced metastatic stage and typically do not undergo further surgeries, making such tissue samples unavailable. And they haven't tested YAP expression in mice metastatic models, either. This made me wonder if the use of this drug is limited to a very small group of patients, potentially so rare that they might be difficult to identify.</td>
-    </tr>
-    <tr>
-      <td>A reminder: <b>Stay alert to the gap between basic medicine and clinical application when choosing target molecules in my own research.</b></td>
-    </tr>
-  </table>
+  
+  | <div style="width=100%">💡Thoughts </div>|
+  | :---        |
+  | The drug targets the primary tumor to prevent it from becoming metastatic cancer. So I asked Guan whether they had also tested the expression of YAP in metastatic tissues and whether the YAP expression levels were consistent. He replied that they had not, explaining that most patients with SCLC are diagnosed at an advanced metastatic stage and typically do not undergo further surgeries, making such tissue samples unavailable. And they haven't tested YAP expression in mice metastatic models, either. This made me wonder if the use of this drug is limited to a very small group of patients, potentially so rare that they might be difficult to identify.|
+  | A reminder: **Stay alert to the gap between basic medicine and clinical application when choosing target molecules in my own research.**|
