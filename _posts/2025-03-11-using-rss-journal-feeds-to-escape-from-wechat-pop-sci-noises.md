@@ -9,7 +9,7 @@ mermaid: true
 pin: false
 ---
 
-Tired of overly subjective, clickbait-style updates from science-focused public accounts, I've been seeking reliable literature subscription methods. I previously relied on automated email alerts like Nature Briefing, AAAS/Science newsletters, and various webinar notifications. But I realized their content resembled curated popular science digests for lay audiences rather than substantive academic material for researchers.
+Tired of overly subjective, clickbait-style updates from science-focused public accounts, I've been seeking reliable article subscription methods. I previously relied on automated email alerts like Nature Briefing, AAAS/Science newsletters, and various webinar notifications. But I realized their content resembled curated popular science digests for lay audiences rather than substantive academic material for researchers.
 
 A week ago, a friend lamented that social media algorithms constantly feed him trivial content that he uncontrollably desired. He expressed that he wanted to train an AI to deliver information he actually "needed" rather than "desired". I immediately questioned why he wasn't using RSS feeds with custom filters. Suddenly, it also illuminated my own solution for research article alerts. After completing pending work, I configured RSS subscriptions using Inoreader, selecting publishers whose article styles align with my preferences.
 
