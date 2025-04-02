@@ -23,7 +23,7 @@ pin: false
 
 ## Thoughts
 
-<iframe src="https://www.notioniframe.com/notion/2gdf7twad4p" style="width: 100%; height: 100vh; border: 0; padding: 0"></iframe>
+[Notes link (in personal Notion - private)](https://www.notion.so/Spatial-organization-of-gliomas-and-head-neck-cancer-1c73baf9f88380358dded947c95ed06b?pvs=4)
 
 The talk was tightly associated with one of my fellows’ work, and potentially would also be associated with mine in the future. There was much unpublished data, so I can’t simply post the slides. 
 
