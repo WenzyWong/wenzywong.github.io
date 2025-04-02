@@ -23,6 +23,8 @@ pin: false
 
 ## Thoughts
 
+<iframe src="https://www.notioniframe.com/notion/2gdf7twad4p" style="width: 100%; height: 100vh; border: 0; padding: 0"></iframe>
+
 The talk was tightly associated with one of my fellows’ work, and potentially would also be associated with mine in the future. There was much unpublished data, so I can’t simply post the slides. 
 
 The topic was about tumour heterogeneity. Compared to other studies that involved spatial transcriptomics, Tirosh had a different perspective when it came to cell-type annotation mixtures in some slides. And based on the structured / mixed / disorganized sample slides, his group devised a coherent score to understand the spot-spot neighbouring structures and their corresponding relations with specific cell types. The emergence of this thinking was very much relied on the inherent characteristics of spatial transcriptome data - each spot has its own imputed cell types and fixed neighbours, and whether the cell-type-coherency between each spot and its neighbouring spots is determined by the cell type within each spot is a very natural inference. 
