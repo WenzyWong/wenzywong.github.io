@@ -23,6 +23,8 @@ pin: false
 
 ## Notes & thoughts
 
+[Notes link (in personal Notion - private)](https://www.notion.so/Hippo-1ad3baf9f88380e9ae49d929665cf16a?pvs=4)
+
 - The Hippo tumour suppressor pathway was first discovered in Drosophila.
 
 - To target a pathway, we could focus on either the kinase module or the transcriptional module. Targeting kinase module is usually easier.
