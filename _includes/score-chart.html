@@ -1,0 +1,39 @@
+<div>
+  <canvas id="scoreChart" width="600" height="300"></canvas>
+</div>
+<script>
+// English comments for clarity:
+(async function() {
+  const token = localStorage.getItem("GH_GIST_TOKEN");
+  const gistId = "{{ page.score_gist_id }}";
+  const gistFile = "{{ page.score_gist_file }}";
+  const url = `https://api.github.com/gists/${gistId}`;
+  const res = await fetch(url, {
+    headers: { Authorization: `token ${token}` }
+  });
+  const data = await res.json();
+  const content = data.files[gistFile].content;
+  const logs = JSON.parse(content || "[]");
+  const grouped = {};
+  logs.forEach(({ date, category, score }) => {
+    grouped[category] = grouped[category] || [];
+    grouped[category].push({ x: date, y: score });
+  });
+
+  new Chart(document.getElementById("scoreChart").getContext("2d"), {
+    type: 'line',
+    data: {
+      datasets: Object.entries(grouped).map(([label, points]) => ({
+        label,
+        data: points,
+        fill: false,
+        tension: 0.1
+      }))
+    },
+    options: {
+      parsing: { xAxisKey: 'x', yAxisKey: 'y' },
+      scales: { x: { type: 'time', time: { unit: 'day' } } }
+    }
+  });
+})();
+</script>
