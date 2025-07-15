@@ -6,8 +6,9 @@ categories: [Widget]
 tags: [tool]
 include_score_chart: true
 score_gist_id: bc3fdf16654faba761c905c08a41d6a2
-score_gist_file: scores.json
-render_with_liquid: false
+render_with_liquid: true
+math: true
+mermaid: true
 pin: false
 ---
 
