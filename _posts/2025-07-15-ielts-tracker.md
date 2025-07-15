@@ -10,4 +10,7 @@ score_gist_file: scores.json
 render_with_liquid: false
 pin: false
 ---
+
+{% include score-input.html %}
+
 {% include score-chart.html %}
