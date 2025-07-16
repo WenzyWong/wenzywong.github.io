@@ -1,8 +1,3 @@
----
-layout: default
-title: IELTS Practice Score Tracker
-permalink: /ielts-tracker/
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,59 +27,6 @@ permalink: /ielts-tracker/
             text-align: center;
             margin-bottom: 30px;
             font-size: 2.5em;
-        }
-        
-        .setup-section {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        
-        .setup-section h3 {
-            margin-top: 0;
-        }
-        
-        .setup-section input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-        
-        .setup-section button {
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            border: 2px solid white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 5px;
-        }
-        
-        .setup-section button:hover {
-            background: rgba(255, 255, 255, 0.3);
-        }
-        
-        .status {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin: 10px 0;
-        }
-        
-        .status-indicator {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #e74c3c;
-        }
-        
-        .status-indicator.connected {
-            background: #2ecc71;
         }
         
         .input-section {
@@ -134,12 +76,6 @@ permalink: /ielts-tracker/
         button:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
-        }
-        
-        button:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-            transform: none;
         }
         
         .chart-container {
@@ -225,81 +161,17 @@ permalink: /ielts-tracker/
             border: 1px solid #f5c6cb;
         }
         
-        .alert-info {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            border: 1px solid #bee5eb;
-        }
-        
         .controls {
             display: flex;
             justify-content: center;
             gap: 10px;
             margin-bottom: 20px;
         }
-        
-        .sync-controls {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        
-        .loading {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #3498db;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .hidden {
-            display: none;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📊 IELTS Practice Score Tracker</h1>
-        
-        <div class="setup-section">
-            <h3>🔧 GitHub Integration Setup</h3>
-            <div class="status">
-                <div class="status-indicator" id="connectionStatus"></div>
-                <span id="connectionText">Not Connected</span>
-            </div>
-            
-            <div id="setupForm">
-                <div style="margin-bottom: 15px;">
-                    <label>GitHub Personal Access Token:</label>
-                    <input type="password" id="githubToken" placeholder="Enter your GitHub token">
-                    <small style="display: block; margin-top: 5px; opacity: 0.8;">
-                        Create a token at: GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
-                    </small>
-                </div>
-                
-                <div style="margin-bottom: 15px;">
-                    <label>Gist ID (optional for new setup):</label>
-                    <input type="text" id="gistId" placeholder="Leave empty to create new gist">
-                </div>
-                
-                <button onclick="connectToGitHub()">Connect to GitHub</button>
-                <button onclick="createNewGist()">Create New Gist</button>
-            </div>
-            
-            <div id="connectedInfo" class="hidden">
-                <p>✅ Connected to GitHub!</p>
-                <p>Gist ID: <span id="currentGistId"></span></p>
-                <button onclick="disconnectGitHub()">Disconnect</button>
-            </div>
-        </div>
         
         <div id="alertContainer"></div>
         
@@ -331,15 +203,6 @@ permalink: /ielts-tracker/
             <button onclick="clearAllData()" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">Clear All Data</button>
         </div>
         
-        <div class="sync-controls">
-            <button onclick="syncFromGitHub()" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
-                <span id="syncFromText">Sync from GitHub</span>
-            </button>
-            <button onclick="syncToGitHub()" style="background: linear-gradient(135deg, #f39c12, #e67e22);">
-                <span id="syncToText">Sync to GitHub</span>
-            </button>
-        </div>
-        
         <div class="stats-grid" id="statsGrid"></div>
         
         <div class="chart-container">
@@ -365,18 +228,13 @@ permalink: /ielts-tracker/
     <script>
         let chart;
         let practiceData = [];
-        let githubToken = '';
-        let gistId = '';
-        let isConnected = false;
         
         // Initialize the app
         document.addEventListener('DOMContentLoaded', function() {
-            loadSettings();
             loadData();
             updateChart();
             updateStats();
             updateTable();
-            updateConnectionStatus();
             
             // Set today's date as default
             document.getElementById('practiceDate').value = new Date().toISOString().split('T')[0];
@@ -393,227 +251,7 @@ permalink: /ielts-tracker/
             
             setTimeout(() => {
                 alertDiv.remove();
-            }, 5000);
-        }
-        
-        function setLoading(elementId, isLoading) {
-            const element = document.getElementById(elementId);
-            if (isLoading) {
-                element.innerHTML = '<div class="loading"></div>';
-            } else {
-                element.innerHTML = element.id === 'syncFromText' ? 'Sync from GitHub' : 'Sync to GitHub';
-            }
-        }
-        
-        function loadSettings() {
-            const settings = localStorage.getItem('ieltsGitHubSettings');
-            if (settings) {
-                const parsed = JSON.parse(settings);
-                githubToken = parsed.token || '';
-                gistId = parsed.gistId || '';
-                isConnected = !!(githubToken && gistId);
-            }
-        }
-        
-        function saveSettings() {
-            localStorage.setItem('ieltsGitHubSettings', JSON.stringify({
-                token: githubToken,
-                gistId: gistId
-            }));
-        }
-        
-        function updateConnectionStatus() {
-            const statusIndicator = document.getElementById('connectionStatus');
-            const statusText = document.getElementById('connectionText');
-            const setupForm = document.getElementById('setupForm');
-            const connectedInfo = document.getElementById('connectedInfo');
-            
-            if (isConnected) {
-                statusIndicator.classList.add('connected');
-                statusText.textContent = 'Connected to GitHub';
-                setupForm.classList.add('hidden');
-                connectedInfo.classList.remove('hidden');
-                document.getElementById('currentGistId').textContent = gistId;
-            } else {
-                statusIndicator.classList.remove('connected');
-                statusText.textContent = 'Not Connected';
-                setupForm.classList.remove('hidden');
-                connectedInfo.classList.add('hidden');
-            }
-        }
-        
-        async function connectToGitHub() {
-            const token = document.getElementById('githubToken').value;
-            const inputGistId = document.getElementById('gistId').value;
-            
-            if (!token) {
-                showAlert('Please enter your GitHub token.', 'error');
-                return;
-            }
-            
-            if (!inputGistId) {
-                showAlert('Please enter a Gist ID or create a new gist.', 'error');
-                return;
-            }
-            
-            try {
-                // Test the connection by trying to fetch the gist
-                const response = await fetch(`https://api.github.com/gists/${inputGistId}`, {
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
-                });
-                
-                if (response.ok) {
-                    githubToken = token;
-                    gistId = inputGistId;
-                    isConnected = true;
-                    saveSettings();
-                    updateConnectionStatus();
-                    showAlert('Successfully connected to GitHub!');
-                    
-                    // Auto-sync from GitHub
-                    syncFromGitHub();
-                } else {
-                    showAlert('Failed to connect. Please check your token and Gist ID.', 'error');
-                }
-            } catch (error) {
-                showAlert('Connection failed: ' + error.message, 'error');
-            }
-        }
-        
-        async function createNewGist() {
-            const token = document.getElementById('githubToken').value;
-            
-            if (!token) {
-                showAlert('Please enter your GitHub token first.', 'error');
-                return;
-            }
-            
-            try {
-                const response = await fetch('https://api.github.com/gists', {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        description: 'IELTS Practice Score Data',
-                        public: false,
-                        files: {
-                            'ielts-scores.json': {
-                                content: JSON.stringify(practiceData, null, 2)
-                            }
-                        }
-                    })
-                });
-                
-                if (response.ok) {
-                    const gist = await response.json();
-                    githubToken = token;
-                    gistId = gist.id;
-                    isConnected = true;
-                    saveSettings();
-                    updateConnectionStatus();
-                    showAlert('New gist created successfully!');
-                    
-                    // Update the input field
-                    document.getElementById('gistId').value = gistId;
-                } else {
-                    showAlert('Failed to create gist. Please check your token.', 'error');
-                }
-            } catch (error) {
-                showAlert('Failed to create gist: ' + error.message, 'error');
-            }
-        }
-        
-        function disconnectGitHub() {
-            githubToken = '';
-            gistId = '';
-            isConnected = false;
-            localStorage.removeItem('ieltsGitHubSettings');
-            updateConnectionStatus();
-            showAlert('Disconnected from GitHub.');
-        }
-        
-        async function syncFromGitHub() {
-            if (!isConnected) {
-                showAlert('Please connect to GitHub first.', 'error');
-                return;
-            }
-            
-            setLoading('syncFromText', true);
-            
-            try {
-                const response = await fetch(`https://api.github.com/gists/${gistId}`, {
-                    headers: {
-                        'Authorization': `token ${githubToken}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
-                });
-                
-                if (response.ok) {
-                    const gist = await response.json();
-                    const fileContent = gist.files['ielts-scores.json']?.content;
-                    
-                    if (fileContent) {
-                        const remoteData = JSON.parse(fileContent);
-                        practiceData = remoteData;
-                        saveData();
-                        updateChart();
-                        updateStats();
-                        updateTable();
-                        showAlert('Successfully synced from GitHub!');
-                    } else {
-                        showAlert('No data found in the gist.', 'info');
-                    }
-                } else {
-                    showAlert('Failed to sync from GitHub.', 'error');
-                }
-            } catch (error) {
-                showAlert('Sync failed: ' + error.message, 'error');
-            } finally {
-                setLoading('syncFromText', false);
-            }
-        }
-        
-        async function syncToGitHub() {
-            if (!isConnected) {
-                showAlert('Please connect to GitHub first.', 'error');
-                return;
-            }
-            
-            setLoading('syncToText', true);
-            
-            try {
-                const response = await fetch(`https://api.github.com/gists/${gistId}`, {
-                    method: 'PATCH',
-                    headers: {
-                        'Authorization': `token ${githubToken}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        files: {
-                            'ielts-scores.json': {
-                                content: JSON.stringify(practiceData, null, 2)
-                            }
-                        }
-                    })
-                });
-                
-                if (response.ok) {
-                    showAlert('Successfully synced to GitHub!');
-                } else {
-                    showAlert('Failed to sync to GitHub.', 'error');
-                }
-            } catch (error) {
-                showAlert('Sync failed: ' + error.message, 'error');
-            } finally {
-                setLoading('syncToText', false);
-            }
+            }, 3000);
         }
         
         function addScore() {
@@ -649,11 +287,6 @@ permalink: /ielts-tracker/
             document.getElementById('score').value = '';
             
             showAlert(`Successfully added ${category} score: ${score}!`);
-            
-            // Auto-sync to GitHub if connected
-            if (isConnected) {
-                syncToGitHub();
-            }
         }
         
         function deleteEntry(id) {
@@ -664,11 +297,6 @@ permalink: /ielts-tracker/
                 updateStats();
                 updateTable();
                 showAlert('Entry deleted successfully!');
-                
-                // Auto-sync to GitHub if connected
-                if (isConnected) {
-                    syncToGitHub();
-                }
             }
         }
         
@@ -680,11 +308,6 @@ permalink: /ielts-tracker/
                 updateStats();
                 updateTable();
                 showAlert('All data cleared successfully!');
-                
-                // Auto-sync to GitHub if connected
-                if (isConnected) {
-                    syncToGitHub();
-                }
             }
         }
         
