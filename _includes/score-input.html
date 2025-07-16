@@ -3,6 +3,12 @@ Include: _includes/score-input.html
 This part renders the IELTS practice input form and allows syncing to GitHub Gist.
 {% endcomment %}
 
+<div id="tokenInputSection" style="margin: 20px 0;">
+  <label for="ghToken">GitHub Token (will be stored locally):</label>
+  <input type="password" id="ghToken" placeholder="Paste your GitHub token here">
+  <button onclick="storeToken()">Save Token</button>
+</div>
+
 <div class="input-section">
   <label>Date:
     <input type="date" id="practiceDate" required>
@@ -23,6 +29,17 @@ This part renders the IELTS practice input form and allows syncing to GitHub Gis
 <button onclick="submitScore()">Submit</button>
 
 <script>
+function storeToken() {
+  const token = document.getElementById('ghToken').value;
+  if (token) {
+    localStorage.setItem('gh_token', token);
+    alert('Token saved in browser!');
+    document.getElementById('tokenInputSection').style.display = 'none';
+  } else {
+    alert('Please enter a token.');
+  }
+}
+
 function submitScore() {
   const token = localStorage.getItem('gh_token');
   const gistId = '{{ page.score_gist_id }}';
@@ -85,6 +102,9 @@ function submitScore() {
 // Set today's date by default
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('practiceDate').value = new Date().toISOString().split('T')[0];
+  if (localStorage.getItem('gh_token')) {
+    document.getElementById('tokenInputSection').style.display = 'none';
+  }
 });
 </script>
 
