@@ -75,11 +75,6 @@ layout: compress
     {% endif %}
 
     <!-- Embedded scripts -->
-
-    {% if page.include_score_chart %}
-      <!-- include Chart.js only when needed -->
-      <script src="https://cdn.jsdelivr.net/npm/chart.js@3"></script>
-    {% endif %}
     
     {% for _include in layout.script_includes %}
       {% assign _include_path = _include | append: '.html' %}
