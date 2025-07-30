@@ -11,7 +11,7 @@ pin: false
 
 {% include embed/spotify.html id='6BqqBaaQPILuPRKqwl7Gyq' %}
 
-After booking the IELTS exam for late September, I started preparing for tests again—something I hadn't done in years. I restructured my schedule, waking up between 6 and 7 a.m. and leaving the lab two hours before bedtime to carve out time for English practice. My first reaction was exhaustion and a sense of lost youth.
+After booking the IELTS exam for late September, I started preparing for tests again—something I hadn't done in years. I restructured my schedule, waking up at 7 a.m. and leaving the lab two hours before bedtime to carve out time for English practice. My first reaction was exhaustion and a sense of lost youth.
 
 The last time I prepared for IELTS was about six years ago. I can still recall the rhythm of dormitory-classroom-library and the satisfaction of constantly absorbing new knowledge. Despite that semester's heavy course load, I never felt rushed. Both my IELTS score and GPA wasn't particularly high compared to later semesters, yet I was most satisfied with my learning state then. I've often looked back on those months of dedicated immersion, wondering if I could ever recapture that feeling.
 
