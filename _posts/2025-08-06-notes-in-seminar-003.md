@@ -96,3 +96,5 @@ There were also some rather amusing incidents. For example, Prof. Cleveland, who
 I laughed at the time, because I remembered that before starting my postgraduate studies, I wanted to research neuroscience, but during my first year I took many neuroscience courses, including some literature seminars. When choosing my own project, I ultimately avoided depression research that I could have selected, precisely because those behavioural modelling approaches were very anthropocentric and subjective. In my mind, they couldn't truly represent corresponding psychological or mental issues. I really felt as though I had betrayed myself by asking that question.
 
 Overall, this felt like an academic sanctuary where breadth exceeded depth. But precisely because of its breadth, it liberated me from the oppressive routine of day after day intensely focusing on one particular area. Go to the wider world, learn more diverse knowledge, and never work behind closed doors or rest on one's laurels.
+
+![summer-school](/assets/img/summer-school.jpg)
