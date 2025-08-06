@@ -31,7 +31,7 @@ order: 4
     - Evolutionary and Biological Big Data
   - Oral presentation topic:
     - Intratumour microbiome in gastric cancer (The First Prize)
-    - bacNeo: a computational toolkit for bacteria-derived neoantigen identification
+    - bacNeo: a computational toolkit for bacteria-derived neoantigen identification (The Second Prize)
 
 - Visiting Student, 2019, School of Life Science, The Chinese University of Hong Kong, Hong Kong, China
 
