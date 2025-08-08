@@ -36,7 +36,7 @@ order: 4
 - Visiting Student, 2019, School of Life Science, The Chinese University of Hong Kong, Hong Kong, China
 
   - Programme: Biological and Biomedical Science Programme
-  - Research topic: The mechanism and clinical applications of siRNAs
+  - Research topic: The mechanism and clinical applications of siRNAs (The Second Prize)
 
 ## 📑 Publication
 
