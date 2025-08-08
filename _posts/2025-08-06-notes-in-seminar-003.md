@@ -55,7 +55,9 @@ pin: false
 
 {% include embed/spotify.html id='2vt5Ve45r9e01TvswbQ5nK' %}
 
-This was my first time attending an international summer school for graduates. Initially, I was plagued by gastroenteritis triggered by anxiety. Pressure was from all directions:
+This was my first time attending an international summer school for graduates. 
+
+Initially, I was plagued by gastroenteritis triggered by anxiety. Pressure was from all directions:
 
 1. I was constantly receiving messages from my supervisor making enquiries and pressing for updates;
 
@@ -69,7 +71,7 @@ This was my first time attending an international summer school for graduates. I
 
 This process continued until one day during module 2, when I suddenly collapsed completely from exhaustion, like a string that had been wound too tightly and snapped in an instant. In the days that followed, I paused my IELTS preparation and set aside the work my supervisor had been persistently pushing. I would simply lie down upon returning to my dormitory. Actually, would it have been better to cast all those concerns aside from the beginning, to more thoroughly enjoy this relatively pure academic exchange?
 
-During this summer school, there were numerous lectures that brought me delightful surprises and inspiration. For instance, epigenetics, which I hadn't been particularly interested in previously but often had to handle in collaborative work. The reason I found it uninteresting wasn't because it was inherently dull, but because no one had ever properly guided me into that world. After attending several meticulously prepared lectures with explanations that progressed from basic to advanced concepts, all that previously heavy and seemingly disconnected knowledge and experience appeared to reconnect and form a coherent network. Many times I left the lecture theatre feeling as though my brain had been thoroughly washed by knowledge, with a tingling sensation. I absolutely love this feeling.
+Despite such pressure, during this summer school, there were numerous lectures that brought me delightful surprises and inspiration. For instance, epigenetics, which I hadn't been interested in previously but often had to handle in collaborative work. After attending several meticulously prepared lectures on epigenetics, I started to understand that the reason I found it uninteresting wasn't because it was inherently dull, but because no one had ever properly guided me into that world. These lectures introduced epigenetics from basic knowledge to advanced research with detailed explanations. All that previously heavy and seemingly disconnected knowledge and experience appeared to reconnect and form a coherent network. Many times I left the lecture hall feeling as though my brain had been thoroughly washed by knowledge, with a tingling sensation. I absolutely love this feeling.
 
 The two oral presentations were also tremendously rewarding. Not only did they make me suddenly realise that my academic English expression had reached a level I previously couldn't have imagined, but they also provided me with invaluable advice: 
 
@@ -93,7 +95,7 @@ There were also some rather amusing incidents. For example, Prof. Cleveland, who
 
 | "Do you really believe in those animal behavioural experiments nowadays?" 
 
-I laughed at the time, because I remembered that before starting my postgraduate studies, I wanted to research neuroscience, but during my first year I took many neuroscience courses, including some literature seminars. When choosing my own project, I ultimately avoided depression research that I could have selected, precisely because those behavioural modelling approaches were very anthropocentric and subjective. In my mind, they couldn't truly represent corresponding psychological or mental issues. I really felt as though I had betrayed myself by asking that question.
+I laughed at the time, because I remembered that before starting my postgraduate studies, I wanted to do some research on neuroscience. Therefore, during my first year, I took many neuroscience courses, including some literature seminars. When choosing my own project, I ultimately avoided a project related to depression that I could have selected, precisely because those behavioural modelling approaches were very anthropocentric and subjective. In my mind, they couldn't truly represent corresponding psychological or mental issues. I really felt as though I had betrayed myself by asking that question.
 
 Overall, this felt like an academic sanctuary where breadth exceeded depth. But precisely because of its breadth, it liberated me from the oppressive routine of day after day intensely focusing on one particular area. Go to the wider world, learn more diverse knowledge, and never work behind closed doors or rest on one's laurels.
 
