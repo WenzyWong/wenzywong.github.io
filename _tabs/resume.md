@@ -44,7 +44,7 @@ order: 4
   - Oral presenter (The First Prize - Graduate Forum)
   - Poster presenter (The Second Prize)
  
-- Cell Symposium: Hallmarks of Cancer 2024
+- Cell Symposia: Hallmarks of Cancer 2024
   - Attendee
 
 - National Conference on Bioinformatics and System Biology 2023
