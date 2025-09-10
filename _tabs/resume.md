@@ -38,6 +38,18 @@ order: 4
   - Programme: Biological and Biomedical Science Programme
   - Research topic: The mechanism and clinical applications of siRNAs (The Second Prize)
 
+## 💼 Conference
+
+- iMeta Conference 2025
+  - Oral presenter (The First Prize - Graduate Forum)
+  - Poster presenter (The Second Prize)
+ 
+- Cell Symposium: Hallmarks of Cancer 2024
+  - Attendee
+
+- National Conference on Bioinformatics and System Biology 2023
+  - Attendee
+  
 ## 📑 Publication
 
 Marks: Co-first author† and corresponding author#.
