@@ -11,7 +11,7 @@ pin: false
 
 {% include embed/spotify.html id='1tsDZuYKIVxvarMXwVsxzD' %}
 
-After finishing the national scholarship application, the mid-term assessment, and several obligatory presentations, I finally have time for myself. Since last Wednesday, I've expanded my daily activities (or should I say side quests?) to a much wider range: playing kalimba, playing violin, attending chamber concerts, reading weighty tomes, practising soft brush calligraphy, watching films from the 70s and 80s, taking photos while roaming around... The list goes on.
+After finishing the national scholarship application, the mid-term assessment, and several obligatory presentations, I finally have some time for myself. Since last Wednesday, I've expanded my daily activities (or should I say side quests?) to a much wider range: playing kalimba, playing violin, attending chamber concerts, reading weighty tomes, practising soft brush calligraphy, watching films from the 70s and 80s, taking photos while roaming around... The list goes on.
 
 Apart from sports (courtesy of my broken coccyx), I've been exploring different things. Not all of them are new to me, but I still feel each expeirence brand-new. I've also gradually abandoned my rigid routine, the weekday 9 a.m. to 9 p.m. grind, in favour of something more flexible and casual. Rather than feeling like wasting time, I've actually become far more efficient with my research (the main quest?), which in turn allows me to spend time on these other pursuits. My whole life seems like a virtuous circle, constantly evolving.
 
