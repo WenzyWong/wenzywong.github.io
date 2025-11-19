@@ -13,9 +13,9 @@ pin: false
 
 After finishing the national scholarship application, the mid-term assessment, and several obligatory presentations, I finally have some time for myself. Since last Wednesday, I've expanded my daily activities (or should I say side quests?) to a much wider range: playing kalimba, playing violin, attending chamber concerts, reading weighty tomes, practising soft brush calligraphy, watching films from the 70s and 80s, taking photos while roaming around... The list goes on.
 
-![7420](/assets/img/2025-11-19/IMG_7420.orf)
+![7420](/assets/img/2025-11-19/c087cea8b32de4de134a4ef66882da42.JPG)
 
-![7719](/assets/img/2025-11-19/IMG_7719.orf)
+![7719](/assets/img/2025-11-19/f28f0cd99cb3b7c0ac0180c3cf7d198c.JPG)
 
 ![7721](/assets/img/2025-11-19/IMG_7721.jpeg)
 
