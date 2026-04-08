@@ -11,7 +11,7 @@ pin: false
 
 {% include embed/spotify.html id='5r3Sm0HSUDpnq3WPDULvvE' %}
 
-![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)
+![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)![CC robot](/assets/img/claudecode-color.svg)
 
 In 2023, I used AI to assist with research for the first time. I fed various tasks to the most popular tools of the moment, including revising paragraphs, correcting grammatical errors, and standardising terminology. I then tested a few code-editing jobs as well. After several rounds of experimentation, I settled on Claude as my primary AI tool. The main reason was straightforward: even without any personalised configuration, its output was consistently concise and clear. Of all the response styles I encountered, it was the least taxing to read. This reminded me of how I prefer to communicate with people in real life. I find direct, no-nonsense exchanges the most comfortable.
 
