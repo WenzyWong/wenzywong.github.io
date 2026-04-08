@@ -9,14 +9,14 @@ order: 4
 
 ### 🎓 Degree
 
-- Ph.D. of Biology, 2022-2028 (expected), School of Basic Medical Sciences, Fudan University, Shanghai, China
+- Ph.D. in Biology, 2022-2028 (expected), MOE Key Laboratory of Metabolism and Molecular Medicine, School of Basic Medical Sciences, Fudan University, Shanghai, China
 
   - Major: Metabolism and Diseases, Biochemistry and Molecular Biology
   - Programme: Successive postgraduate and doctoral programme
   - Research interests: Cancer Research; Bioinformatics; Human Microbiome
   - Academic advisor: Dr. Zhao Zhang
 
-- B.Sc. of Biology, 2016-2021, College of Informatics, Huazhong Agricultural University, Wuhan, China
+- B.Sc. in Biology, 2016-2021, Department of Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China
 
   - Major: Bioinformatics
   - Graduation project: Benchmarking imputation algorithms in scRNA-seq analysis
