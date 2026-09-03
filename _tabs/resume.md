@@ -40,6 +40,12 @@ order: 4
 
 ## 💼 Conference
 
+- Cell Symposia: Immune regulation of o rganismal homeostasis-Keeping the middle path 2026
+  - Poster presenter
+
+- The 16th National Symposium on Gene Function and Expression Regulation 2025
+  - Attendee
+
 - iMeta Conference 2025
   - Oral presenter (The First Prize - Graduate Forum)
   - Poster presenter (The Second Prize)
@@ -55,6 +61,8 @@ order: 4
 Marks: Co-first author† and corresponding author#.
 
 - As the first and co-first author
+
+  - Shen Y., Sun Q., <span style="color:cyan">**Wang Y.**</span>, ..., & Luan C.#,  [Targeting CTGF+ cancer-associated fibroblasts disrupts tumor–stroma crosstalk in pancreatic ductal adenocarcinoma](https://doi.org/10.1073/pnas.2535905123), *PNAS* 123, 36 (2026).
   - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.# [bacNeo: A Computational Toolkit for Identifying Bacteria-Derived Neoantigens in Human Cancers.](https://doi.org/10.1002/imm3.70040) *iMetaMed* e70040 (2026).
   - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.#, & Han L.# [Characterization of Tumor Antigens from Multi-omics Data: Computational Approaches and Resources.](https://doi.org/10.1093/gpbjnl/qzaf001) *Genomics, Proteomics & Bioinformatics* qzaf001 (2025).
   - Yuan L.†, Pan L.†, <span style="color:cyan">**Wang Y.†**</span>, ..., Zhang Z.#, & Cheng X.# [Characterization of the landscape of the intratumoral microbiota reveals that Streptococcus anginosus increases the risk of gastric cancer initiation and progression.](https://doi.org/10.1038/s41421-024-00746-0) *Cell Discov* 10, 117 (2024).
