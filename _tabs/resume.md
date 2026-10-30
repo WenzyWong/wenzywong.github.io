@@ -38,6 +38,23 @@ order: 4
   - Programme: Biological and Biomedical Science Programme
   - Research topic: The mechanism and clinical applications of siRNAs (The Second Prize)
 
+## 📑 Publication
+
+Marks: Co-first author† and corresponding author#.
+
+- As the first and co-first author
+
+  - Shen Y.†, Sun Q.†, <span style="color:cyan">**Wang Y.†**</span>, ..., & Luan C.#,  [Targeting CTGF+ cancer-associated fibroblasts disrupts tumor–stroma crosstalk in pancreatic ductal adenocarcinoma](https://doi.org/10.1073/pnas.2535905123), *PNAS* 123, 36 (2026).
+  - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.# [bacNeo: A Computational Toolkit for Identifying Bacteria-Derived Neoantigens in Human Cancers.](https://doi.org/10.1002/imm3.70040) *iMetaMed* e70040 (2026).
+  - Fu, Y.†, <span style="color:cyan">**Wang Y.†**</span>, Chai Z.T., … Zhang, Z.#, [Characterization of Cancer Hallmark Enhancer RNA Uncovers Novel Strategies for Precision Oncology.](https://doi.org/10.1093/gpbjnl/qzag037) *Genomics, Proteomics & Bioinformatics* qzag037 (2026).
+  - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.#, & Han L.# [Characterization of Tumor Antigens from Multi-omics Data: Computational Approaches and Resources.](https://doi.org/10.1093/gpbjnl/qzaf001) *Genomics, Proteomics & Bioinformatics* qzaf001 (2025).
+  - Yuan L.†, Pan L.†, <span style="color:cyan">**Wang Y.†**</span>, ..., Zhang Z.#, & Cheng X.# [Characterization of the landscape of the intratumoral microbiota reveals that Streptococcus anginosus increases the risk of gastric cancer initiation and progression.](https://doi.org/10.1038/s41421-024-00746-0) *Cell Discov* 10, 117 (2024).
+  - <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Enhancer RNA (eRNA) in Human Diseases.](https://doi.org/10.3390/ijms231911582) *Int. J. Mol. Sci.* 23, 11582 (2022).
+
+- As contributing author
+  - Hu W.†, Jiang W†, ..., <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.#, [Comprehensive characterization of transposable element expression reveals regulatory circuitry and clinical implications in cancers.](https://doi.org/10.1126/sciadv.aec9550) *Science Advances*, 2026, 12(42): eaec9550.
+  - Zhang C.†, Chen Y.†, Chen S., <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Characterization of an Enhancer RNA Signature Reveals Treatment Strategies for Improving Immunotherapy Efficacy in Cancer.](https://doi.org/10.1158/0008-5472.CAN-24-2289) *Cancer Res* 3, 85 (2025).
+
 ## 💼 Conference
 
 - Cell Symposia: Immune regulation of o rganismal homeostasis-Keeping the middle path 2026
@@ -55,19 +72,13 @@ order: 4
 
 - National Conference on Bioinformatics and System Biology 2023
   - Attendee
-  
-## 📑 Publication
 
-Marks: Co-first author† and corresponding author#.
+## 🏆 Honors
 
-- As the first and co-first author
-
-  - Shen Y.†, Sun Q.†, <span style="color:cyan">**Wang Y.†**</span>, ..., & Luan C.#,  [Targeting CTGF+ cancer-associated fibroblasts disrupts tumor–stroma crosstalk in pancreatic ductal adenocarcinoma](https://doi.org/10.1073/pnas.2535905123), *PNAS* 123, 36 (2026).
-  - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.# [bacNeo: A Computational Toolkit for Identifying Bacteria-Derived Neoantigens in Human Cancers.](https://doi.org/10.1002/imm3.70040) *iMetaMed* e70040 (2026).
-  - Fu, Y.†, <span style="color:cyan">**Wang Y.†**</span>, Chai Z.T., … Zhang, Z.#, [Characterization of Cancer Hallmark Enhancer RNA Uncovers Novel Strategies for Precision Oncology.](https://doi.org/10.1093/gpbjnl/qzag037) *Genomics, Proteomics & Bioinformatics* qzag037 (2026).
-  - <span style="color:cyan">**Wang Y.**</span>, ..., Zhang Z.#, & Han L.# [Characterization of Tumor Antigens from Multi-omics Data: Computational Approaches and Resources.](https://doi.org/10.1093/gpbjnl/qzaf001) *Genomics, Proteomics & Bioinformatics* qzaf001 (2025).
-  - Yuan L.†, Pan L.†, <span style="color:cyan">**Wang Y.†**</span>, ..., Zhang Z.#, & Cheng X.# [Characterization of the landscape of the intratumoral microbiota reveals that Streptococcus anginosus increases the risk of gastric cancer initiation and progression.](https://doi.org/10.1038/s41421-024-00746-0) *Cell Discov* 10, 117 (2024).
-  - <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Enhancer RNA (eRNA) in Human Diseases.](https://doi.org/10.3390/ijms231911582) *Int. J. Mol. Sci.* 23, 11582 (2022).
-
-- As contributing author
-  - Zhang C.†, Chen Y.†, Chen S., <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Characterization of an Enhancer RNA Signature Reveals Treatment Strategies for Improving Immunotherapy Efficacy in Cancer.](https://doi.org/10.1158/0008-5472.CAN-24-2289) *Cancer Res* 3, 85 (2025).
+- **National Scholarship**, Ministry of Education, 2025-2026
+- **Excellent Student**, Fudan University, 2024-2025
+- **National Scholarship**, Ministry of Education, 2024-2025
+- **Third Prize in the 6th Bioinformatics Design and Skills Competition**，Huazhong Agricultural University, 2020
+- **Third-class Scholarship**, Huazhong Agricultural University, 2019-2020
+- **Merit Student**, Huazhong Agricultural University, 2019-2020
+- **Second Prize in 2019 Five-Minute Research Presentation Competition (National Final for Undergraduates)**, Ministry of Education, 2019
