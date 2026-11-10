@@ -13,7 +13,7 @@ pin: false
 
 - Location: Haikou, China
 
-- Time duration: 06 Dec 2025 - 08 Dec 2025
+- Time duration: 06 Nov 2026 - 08 Nov 2026
 
 - Website: [8th ICAC](https://www.icacconference.cn/)
 
