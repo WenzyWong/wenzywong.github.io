@@ -1,6 +1,6 @@
 ---
 title: Notes in seminar—The 8th international conference on ageing and cancer (ICAC)
-author: Wenzy
+author: wenzy
 date: 2026-11-10 20:18:00 +0800
 categories: [Seminar]
 tags: [notes, woolgathering]
