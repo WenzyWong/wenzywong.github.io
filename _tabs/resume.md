@@ -13,7 +13,7 @@ order: 4
 
   - Major: Metabolism and Diseases, Biochemistry and Molecular Biology
   - Programme: Successive postgraduate and doctoral programme
-  - Research interests: Cancer Research; Bioinformatics; Human Microbiome
+  - Research interests: Cancer Research; Bioinformatics; Epigenetics; Human Microbiome
   - Academic advisor: Dr. Zhao Zhang
 
 - B.Sc. in Biology, 2016-2021, Department of Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China
@@ -51,11 +51,14 @@ Marks: Co-first author† and corresponding author#.
   - Yuan L.†, Pan L.†, <span style="color:cyan">**Wang Y.†**</span>, ..., Zhang Z.#, & Cheng X.# [Characterization of the landscape of the intratumoral microbiota reveals that Streptococcus anginosus increases the risk of gastric cancer initiation and progression.](https://doi.org/10.1038/s41421-024-00746-0) *Cell Discov* 10, 117 (2024).
   - <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Enhancer RNA (eRNA) in Human Diseases.](https://doi.org/10.3390/ijms231911582) *Int. J. Mol. Sci.* 23, 11582 (2022).
 
-- As contributing author
+- As the contributing author
   - Hu W.†, Jiang W†, ..., <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.#, [Comprehensive characterization of transposable element expression reveals regulatory circuitry and clinical implications in cancers.](https://doi.org/10.1126/sciadv.aec9550) *Science Advances*, 2026, 12(42): eaec9550.
   - Zhang C.†, Chen Y.†, Chen S., <span style="color:cyan">**Wang Y.**</span>, ..., & Zhang Z.# [Characterization of an Enhancer RNA Signature Reveals Treatment Strategies for Improving Immunotherapy Efficacy in Cancer.](https://doi.org/10.1158/0008-5472.CAN-24-2289) *Cancer Res* 3, 85 (2025).
 
 ## 💼 Conference
+
+- The 8th international conference on ageing and cancer 2026
+  - Poster presenter
 
 - Cell Symposia: Immune regulation of o rganismal homeostasis-Keeping the middle path 2026
   - Poster presenter
